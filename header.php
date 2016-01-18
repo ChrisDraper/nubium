@@ -37,7 +37,7 @@
         </div>
         
 		<nav id="site-navigation" class="main-navigation fw" role="navigation">
-			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Menu', 'nubium' ); ?></button>
+			<button id="nav-button" class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Menu', 'nubium' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

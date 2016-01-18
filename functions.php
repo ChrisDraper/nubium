@@ -104,6 +104,8 @@ add_action( 'widgets_init', 'nubium_widgets_init' );
  * Enqueue scripts and styles.
  */
 function nubium_scripts() {
+	/* Font awesome added 18-1-16  */
+    wp_enqueue_style( 'font-awesome-style', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' );
 	wp_enqueue_style( 'nubium-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'nubium-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
